@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Reset CSS */
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    background-color: #E7DFAF; /* Общий фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-image: url('/Айрат/img/background.jpg'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: calc(100vh * 2 / 3); /* Ширина 2/3 высоты */
+}
+
+.container-button{
+    height: 50%; /* 3/4 от высоты контейнера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 35%;
+    height: 10%;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-text {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: black;
+}
+
+.button:hover {
+    background-color: #E7DFAF; /* Цвет фона при наведении курсора */
+}
+
+@media only screen and (min-width: 1000px) {
+    .button::after {
+        content: '\2192'; /* Unicode для стрелки вправо */
+        display: inline-block;
+        margin-left: 5px; /* Расстояние между текстом и стрелкой */
+        font-size: 30px; /* Увеличиваем размер стрелки */
+        color: black;
+        padding-bottom: 1px;
+    }
+}
