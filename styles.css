@@ -47,7 +47,7 @@ body, html {
 }
 
 .img {
-    background-image: url('/Айрат/img/background.jpg'); /* Путь к вашему изображению */
+    background-image: url('/img/background.jpg'); /* Путь к вашему изображению */
     background-size: cover;
     background-position: center;
     height: 100%;
