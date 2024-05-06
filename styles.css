@@ -86,6 +86,7 @@ body, html {
 
 .button:hover {
     background-color: #E7DFAF; /* Цвет фона при наведении курсора */
+    border: 2px solid black;
 }
 
 @media only screen and (min-width: 1000px) {
