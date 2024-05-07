@@ -90,12 +90,17 @@ body, html {
 }
 
 @media screen and (max-width: 500px) {
-    .button:hover {
+    .button {
         background-color: #a99cc6; /* Цвет фона при наведении курсора */
         border: 2px solid white;
     }
 
-    .button-text {
-        color: rgb(0, 0, 0);
+    .button-text{
+        color: white;
+    }
+
+    .button:hover {
+        background-color: #9e8cc6;
+        border: 2px solid black;
     }
 }
