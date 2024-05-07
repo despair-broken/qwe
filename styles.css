@@ -96,6 +96,6 @@ body, html {
     }
 
     .button-text {
-        color: white;
+        color: rgb(0, 0, 0);
     }
 }
