@@ -88,14 +88,3 @@ body, html {
     background-color: #E7DFAF; /* Цвет фона при наведении курсора */
     border: 2px solid black;
 }
-
-@media only screen and (min-width: 1000px) {
-    .button::after {
-        content: '\2192'; /* Unicode для стрелки вправо */
-        display: inline-block;
-        margin-left: 5px; /* Расстояние между текстом и стрелкой */
-        font-size: 30px; /* Увеличиваем размер стрелки */
-        color: black;
-        padding-bottom: 1px;
-    }
-}
